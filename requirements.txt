@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+tensorflow
+torch
+transformers
+datasets
+accelerate
+sentence-transformers
+langchain
+langchain-community
+faiss-cpu
