@@ -1,5 +1,13 @@
 # 03 — PyTorch Neural Network
 
-**Status: Architecture**
+**Status: Implemented**
 
-Independent PyTorch implementation covering datasets/data loaders, model definition, loss, optimization, training and evaluation. Results will be documented only after reproducible execution.
+A small PyTorch classifier using the built-in Iris dataset. It demonstrates deterministic setup, preprocessing, tensor conversion, model definition, loss, Adam optimization, a manual training loop and held-out evaluation.
+
+## Run
+```bash
+pip install -r requirements.txt
+python train.py
+```
+
+The script writes the model state and measured test accuracy to `artifacts/`.
