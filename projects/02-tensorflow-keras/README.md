@@ -1,5 +1,13 @@
 # 02 — TensorFlow / Keras Deep Learning
 
-**Status: Architecture**
+**Status: Implemented**
 
-Independent portfolio implementation demonstrating neural-network construction, training, validation and inference with TensorFlow/Keras. No benchmark or accuracy claim is made until reproducible results are committed.
+Compact MNIST neural-network implementation using TensorFlow/Keras. It normalizes image data, trains a dense classifier, evaluates against the test set and saves the model and metrics.
+
+## Run
+```bash
+pip install -r requirements.txt
+python train.py
+```
+
+Outputs are written to `artifacts/`. No benchmark is claimed until a reproducible run is recorded.
