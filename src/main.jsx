@@ -19,3 +19,4 @@ function App(){useEffect(()=>{const ctx=gsap.context(()=>{gsap.utils.toArray(".r
 <section id="credential" className="credential"><div className="glow"/><div className="credentialInner reveal"><div className="sectionNo">04 / CREDENTIAL</div><h2>IBM AI<br/><span>ENGINEERING</span></h2><div className="credentialMeta"><p>Professional Certificate<br/>13-course program<br/>Completed September 2026</p><a href="https://coursera.org/verify/professional-cert/L3M5IUXRK04G" target="_blank">VERIFY CREDENTIAL <ArrowUpRight/></a></div></div></section>
 </main><footer><div><b>MOHAMMAD<br/>MUSTAQIM GHAZALI</b><p>AI Engineering Portfolio</p></div><a href="https://github.com/Kakarothz" target="_blank">GITHUB ↗</a><div className="copy">© 2026 / KUALA LUMPUR</div></footer></>}
 createRoot(document.getElementById("root")).render(<App/>);
+// Pages deployment trigger: 2026-09-25
