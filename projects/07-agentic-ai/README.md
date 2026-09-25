@@ -1,5 +1,12 @@
 # 07 — Agentic AI Workflow
 
-**Status: Architecture**
+**Status: Implemented reference workflow**
 
-Reference architecture for an auditable AI-agent workflow. Focus areas include explicit tool boundaries, retrieval, state, failure handling and traceable execution rather than autonomous-action claims.
+Small standard-library demonstration of explicit tool routing with an allow list and observable outputs. It illustrates a core production principle: an agent should only invoke tools exposed through controlled boundaries.
+
+## Run
+```bash
+python agent.py
+```
+
+This is a reference workflow, not a claim of autonomous production deployment. Future iterations can add an LLM planner, structured traces, approvals, retries and evaluation.
